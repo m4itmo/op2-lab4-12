@@ -1,5 +1,5 @@
-#ifndef OP2_LAB4_17_FIGURESSTORAGE_H
-#define OP2_LAB4_17_FIGURESSTORAGE_H
+#ifndef OP2_LAB4_12_FIGURES_H
+#define OP2_LAB4_12_FIGURES_H
 
 #include "figures/Trapezoid.h"
 #include "figures/Rectangle.h"
@@ -21,4 +21,4 @@ public:
     unsigned int totalMemory();
 };
 
-#endif //OP2_LAB4_17_FIGURESSTORAGE_H
+#endif //OP2_LAB4_12_FIGURES_H

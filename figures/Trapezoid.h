@@ -1,5 +1,5 @@
-#ifndef OP2_LAB4_17_PARALLELOGRAM_H
-#define OP2_LAB4_17_PARALLELOGRAM_H
+#ifndef OP2_LAB4_12_PARALLELOGRAM_H
+#define OP2_LAB4_12_PARALLELOGRAM_H
 
 #include "../Figure.h"
 
@@ -36,4 +36,4 @@ public:
 };
 
 
-#endif //OP2_LAB4_17_PARALLELOGRAM_H
+#endif //OP2_LAB4_12_PARALLELOGRAM_H

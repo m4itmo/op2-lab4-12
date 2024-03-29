@@ -1,5 +1,5 @@
-#ifndef OP2_LAB4_17_INTERFACE_H
-#define OP2_LAB4_17_INTERFACE_H
+#ifndef OP2_LAB4_12_FIGURE_H
+#define OP2_LAB4_12_FIGURE_H
 
 class IGeoFig {
 public:
@@ -43,4 +43,4 @@ public:
 
 class Figure : public IGeoFig, public IPhysObject, public IPrintable, public IDialogInitiable, public BaseCObject {};
 
-#endif //OP2_LAB4_17_INTERFACE_H
+#endif //OP2_LAB4_12_FIGURE_H

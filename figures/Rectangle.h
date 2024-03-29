@@ -1,5 +1,5 @@
-#ifndef OP2_LAB4_17_RECTANGLE_H
-#define OP2_LAB4_17_RECTANGLE_H
+#ifndef OP2_LAB4_12_RECTANGLE_H
+#define OP2_LAB4_12_RECTANGLE_H
 
 #include "../Figure.h"
 
@@ -34,4 +34,4 @@ public:
 };
 
 
-#endif //OP2_LAB4_17_RECTANGLE_H
+#endif //OP2_LAB4_12_RECTANGLE_H
