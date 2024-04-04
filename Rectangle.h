@@ -1,7 +1,7 @@
 #ifndef OP2_LAB4_12_RECTANGLE_H
 #define OP2_LAB4_12_RECTANGLE_H
 
-#include "../Figure.h"
+#include "Figure.h"
 
 class Rectangle : public Figure {
 private:

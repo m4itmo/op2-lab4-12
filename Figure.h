@@ -13,7 +13,7 @@ public:
     double x, y;
 };
 
-class IPhysObject {
+class IPhysObject : public IGeoFig {
 public:
     virtual double mass() = 0;
 
@@ -24,23 +24,23 @@ public:
     virtual bool operator<(const IPhysObject &ob) const = 0;
 };
 
-class IPrintable {
+class IPrintable : public IPhysObject {
 public:
     virtual void draw() = 0;
 };
 
 
-class IDialogInitiable {
+class IDialogInitiable : public IPrintable {
     virtual void initFromDialog() = 0;
 };
 
-class BaseCObject {
+class BaseCObject : public IDialogInitiable {
 public:
     virtual const char *classname() = 0;
 
     virtual unsigned int size() = 0;
 };
 
-class Figure : public IGeoFig, public IPhysObject, public IPrintable, public IDialogInitiable, public BaseCObject {};
+class Figure : public BaseCObject {};
 
 #endif //OP2_LAB4_12_FIGURE_H

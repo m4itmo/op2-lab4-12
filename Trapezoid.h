@@ -1,7 +1,7 @@
 #ifndef OP2_LAB4_12_PARALLELOGRAM_H
 #define OP2_LAB4_12_PARALLELOGRAM_H
 
-#include "../Figure.h"
+#include "Figure.h"
 
 class Trapezoid : public Figure {
 private:

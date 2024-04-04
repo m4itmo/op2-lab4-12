@@ -1,8 +1,8 @@
 #ifndef OP2_LAB4_12_FIGURES_H
 #define OP2_LAB4_12_FIGURES_H
 
-#include "figures/Trapezoid.h"
-#include "figures/Rectangle.h"
+#include "Trapezoid.h"
+#include "Rectangle.h"
 #include "Figure.h"
 
 #include <set>

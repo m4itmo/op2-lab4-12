@@ -4,10 +4,10 @@ project(op2_lab4_12)
 set(CMAKE_CXX_STANDARD 20)
 
 add_executable(op2_lab4_12 main.cpp
-        figures/Rectangle.cpp
-        figures/Rectangle.h
-        figures/Trapezoid.cpp
-        figures/Trapezoid.h
+        Rectangle.cpp
+        Rectangle.h
+        Trapezoid.cpp
+        Trapezoid.h
         Figures.cpp
         Figures.h
         Figure.h)

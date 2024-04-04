@@ -1,7 +1,7 @@
 #include "Figures.h"
 
-#include "figures/Trapezoid.h"
-#include "figures/Rectangle.h"
+#include "Trapezoid.h"
+#include "Rectangle.h"
 #include "Figures.h"
 
 #include "iostream"
